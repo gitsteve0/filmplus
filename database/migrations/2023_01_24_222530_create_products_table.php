@@ -26,6 +26,7 @@ return new class extends Migration
             $table->unsignedBigInteger('language_id')->index()->nullable();
             $table->foreign('language_id')->references('id')->on('attribute_values')->nullOnDelete();
             $table->unsignedBigInteger('group_id')->nullable();
+            $table->string('code')->unique();
             $table->string('name');
             $table->string('full_name_tm');
             $table->string('full_name_en')->nullable();

@@ -63,11 +63,12 @@ class ProductFactory extends Factory
 
         return [
             'category_id' => $category->id,
-            'age_id' => isset($age) ? $age->id : null,
-            'country_id' => isset($country) ? $country->id : null,
-            'genre_id' => isset($genre) ? $genre->id : null,
-            'language_id' => isset($language) ? $language->id : null,
+            'age_id' =>  $age->id,
+            'country_id' => $country->id,
+            'genre_id' => $genre->id,
+            'language_id' => $language->id,
             'group_id' => $isGroup,
+            'code' => $category->id . $age->id . $country->id . rand(1,999),
             'name' => $name,
             'full_name_tm' => $fullNameTm,
             'full_name_en' => $fullNameEn,
