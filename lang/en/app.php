@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'app-name' => 'Wardrobe',
+    'app-name' => 'FilmPlus',
     'search' => 'Search',
 
     'dashboard' => 'Dashboard',
@@ -9,10 +9,6 @@ return [
     'users' => 'Users',
     'category' => 'Category',
     'categories' => 'Categories',
-    'brand' => 'Brand',
-    'brands' => 'Brands',
-    'product' => 'Product',
-    'products' => 'Products',
     'contact' => 'Contact',
     'contacts' => 'Contacts',
     'attribute' => 'Attribute',
@@ -21,8 +17,6 @@ return [
     'values' => 'Values',
     'attributeValue' => 'Attribute value',
     'attributeValues' => 'Attribute values',
-    'discount' => 'Discount',
-    'discounts' => 'Discounts',
 
     'login' => 'Login',
     'logout' => 'Logout',
@@ -39,25 +33,17 @@ return [
     'image' => 'Image',
     'barcode' => 'Barcode',
     'description' => 'Description',
-    'price' => 'Price',
-    'stock' => 'Stock',
-    'quantity' => 'Quantity',
-    'discountPercent' => 'Discount percent',
-    'discountStart' => 'Discount start',
-    'discountEnd' => 'Discount end',
-    'credit' => 'Credit',
     'viewed' => 'Viewed',
     'favorites' => 'Favorites',
     'sortOrder' => 'Sort order',
     'phone' => 'Phone',
     'message' => 'Message',
-    'inStock' => 'In stock',
-    'hasDiscount' => 'Has discount',
-    'hasCredit' => 'Has credit',
 
     'receivedAt' => 'Received at',
     'createdAt' => 'Created at',
     'updatedAt' => 'Updated at',
+
+    'error' => 'Ups! Something went wrong.',
 
     'send' => 'Send',
     'add' => 'Add',

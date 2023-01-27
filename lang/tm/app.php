@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'app-name' => 'Wardrobe',
+    'app-name' => 'FilmPlus',
     'search' => 'Gözleg',
 
     'dashboard' => 'Panel',
@@ -9,10 +9,6 @@ return [
     'users' => 'Ulanyjylar',
     'category' => 'Kategoriýa',
     'categories' => 'Kategoriýalar',
-    'brand' => 'Brend',
-    'brands' => 'Brendlar',
-    'product' => 'Haryt',
-    'products' => 'Harytlar',
     'contact' => 'Kontakt',
     'contacts' => 'Kontaktlar',
     'attribute' => 'Aýratynlyk',
@@ -21,8 +17,6 @@ return [
     'values' => 'Görnüşleri',
     'attributeValue' => 'Aýratynlyk görnüşi',
     'attributeValues' => 'Aýratynlyk görnüşleri',
-    'discount' => 'Arzanladyş',
-    'discounts' => 'Arzanladyşlar',
 
     'login' => 'Ulgama girmek',
     'logout' => 'Ulgamdan çykmak',
@@ -39,25 +33,17 @@ return [
     'image' => 'Surady',
     'barcode' => 'Barkody',
     'description' => 'Düşündirişi',
-    'price' => 'Bahasy',
-    'stock' => 'Stogy',
-    'quantity' => 'Sany',
-    'discountPercent' => 'Arzanladyş göterimi',
-    'discountStart' => 'Arzanladyş başlaýan wagty',
-    'discountEnd' => 'Arzanladyş gutarýan wagty',
-    'credit' => 'Kredit',
     'viewed' => 'Görüldi',
     'favorites' => 'Halananlar',
     'sortOrder' => 'Tertibi',
     'phone' => 'Telefon',
     'message' => 'Hat',
-    'inStock' => null,
-    'hasDiscount' => null,
-    'hasCredit' => null,
 
     'receivedAt' => 'Gelen wagty',
     'createdAt' => 'Döredilen wagty',
     'updatedAt' => 'Üýtgedilen wagty',
+
+    'error' => 'Bu sahypa siziň gözleýän sahypaňyz däl.',
 
     'send' => 'Ugratmak',
     'add' => 'Goşmak',
@@ -65,5 +51,7 @@ return [
     'edit' => 'Üýtgetmek',
     'update' => 'Üýtgeşme girizmek',
     'close' => 'Çykmak',
+    'clear' => 'Arassalamak',
+    'empty' => 'Boş',
     'delete' => 'Pozmak',
 ];

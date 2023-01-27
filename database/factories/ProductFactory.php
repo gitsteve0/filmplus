@@ -78,7 +78,6 @@ class ProductFactory extends Factory
             'time' => fake()->time('H:m:s','3:59:59'),
             'year' => rand(1950, 2023),
             'description' => fake()->text(rand(300, 500)),
-            'favorites' => rand(5, 200),
             'viewed' => rand(10, 1000),
             'rating' => fake()->randomFloat($nbMaxDecimals = 1, $min = 0, $max = 5),
         ];

@@ -24,4 +24,10 @@ class Customer extends Model
     ];
 
     const UPDATED_AT = null;
+
+    public function favorites()
+    {
+        return $this->belongsToMany(Product::class, 'customer_product')
+            ->orderBy('id', 'desc');
+    }
 }
